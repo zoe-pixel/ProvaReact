@@ -20,7 +20,7 @@ function Header() {
             <Toolbar className={classes.toolbar}>
                 <Button><Link to="" style={{ textDecoration: "none", color: "tomato", fontFamily: "Comic Sans MS" }}>Perfil</Link></Button>
                 <Button><Link to="" style={{ textDecoration: "none", color: "tomato", fontFamily: "Comic Sans MS" }}>Anúncios</Link></Button>
-                <Button><Link to="" style={{ textDecoration: "none", color: "tomato", fontFamily: "Comic Sans MS" }}>Configuração</Link></Button>
+                <Button><a href="https://github.com/zoe-pixel/ProvaReact.git" style={{ textDecoration: "none", color: "tomato", fontFamily: "Comic Sans MS" }} target="_blank">Repositório Prova</a></Button>
             </Toolbar>
         </>
     );
